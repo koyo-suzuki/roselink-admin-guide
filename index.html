@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="キャスト・キャストマネージャー共通のRoseLink管理サイト機能ガイドです。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="管理サイトでできること｜RoseLink社内ガイド" />
+    <meta
+      property="og:description"
+      content="キャスト・キャストマネージャー共通のRoseLink管理サイト機能ガイドです。"
+    />
+    <meta
+      property="og:image"
+      content="https://koyo-suzuki.github.io/roselink-admin-guide/og.png"
+    />
+    <meta
+      property="og:url"
+      content="https://koyo-suzuki.github.io/roselink-admin-guide/"
+    />
+    <meta name="theme-color" content="#fffaf7" />
+    <title>管理サイトでできること｜RoseLink社内ガイド</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand" aria-label="RoseLink社内ガイド">
+        <span class="brand-mark">R</span>
+        <span>
+          <strong>RoseLink</strong>
+          <small>STAFF GUIDE</small>
+        </span>
+      </div>
+      <span class="header-label">管理サイトガイド</span>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="eyebrow">キャスト・キャストマネージャー共通</span>
+          <h1>管理サイトで<br />できること</h1>
+          <p>
+            RoseLink管理サイトへログインしたあとに使える、共通機能をまとめています。
+          </p>
+        </div>
+        <div class="actions">
+          <a
+            class="button primary"
+            href="https://butterfly-admin-site.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            RoseLink管理サイトを開く <span>↗</span>
+          </a>
+          <a class="button secondary" href="#notification">
+            お席通知の手順を見る <span>↓</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="features-title">
+        <div class="section-head">
+          <span>01</span>
+          <h2 id="features-title">使える機能</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-number">01</span>
+            <h3>商品</h3>
+            <p>左上の三本線メニューから商品ページを開けます。</p>
+          </article>
+          <article class="feature-card yellow">
+            <span class="feature-number">02</span>
+            <h3>マイリスト・推し</h3>
+            <p>現在の登録人数と、月ごとの人数の推移を確認できます。</p>
+          </article>
+          <article class="feature-card blue">
+            <span class="feature-number">03</span>
+            <h3>お席通知</h3>
+            <p>店舗とメッセージテンプレートを選び、お客様へPush通知を送れます。</p>
+          </article>
+          <article class="feature-card green">
+            <span class="feature-number">04</span>
+            <h3>送信履歴</h3>
+            <p>これまでに送信したお席通知の履歴を確認できます。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="notification" aria-labelledby="notification-title">
+        <div class="section-head">
+          <span>02</span>
+          <h2 id="notification-title">お席通知の送り方</h2>
+        </div>
+        <div class="notification-layout">
+          <ol class="flow-list">
+            <li>
+              <span>01</span>
+              <div>
+                <strong>お席通知を開く</strong>
+                <small>「お席通知を送信する」を押します</small>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <strong>店舗を選ぶ</strong>
+                <small>通知する店舗が正しいか確認します</small>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <strong>テンプレートを選ぶ</strong>
+                <small>送信するメッセージを選びます</small>
+              </div>
+            </li>
+            <li>
+              <span>04</span>
+              <div>
+                <strong>内容を確認して送る</strong>
+                <small>店舗と内容を確認して送信します</small>
+              </div>
+            </li>
+          </ol>
+          <aside class="notification-note">
+            <small>NOTIFICATION</small>
+            <strong>マイリスト登録中の<br />お客様へ届きます</strong>
+            <p>
+              画面には、その日にあと何回送信できるかも表示されます。送信前に残り回数を確認してください。
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="check-title">
+        <div class="section-head">
+          <span>03</span>
+          <h2 id="check-title">最初と送信前の確認</h2>
+        </div>
+        <div class="check-grid">
+          <article class="check-card">
+            <h3>ログインしたら</h3>
+            <ul>
+              <li>左上の三本線メニューを開く</li>
+              <li>画面下部の店舗選択を確認する</li>
+              <li>ログイン中の名前と役割を確認する</li>
+              <li>画面下部の送信履歴を確認する</li>
+            </ul>
+          </article>
+          <article class="check-card caution">
+            <h3>お席通知を送る前に</h3>
+            <ul>
+              <li>通知する店舗が正しい</li>
+              <li>メッセージテンプレートが正しい</li>
+              <li>本日の残り送信回数を確認した</li>
+              <li>送信してよいタイミングである</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <span>確認元：キャスト権限での初回ログイン動画と表示画面</span>
+        <span>最終確認 2026.07.27</span>
+      </footer>
+    </main>
+  </body>
+</html>
